@@ -1,3 +1,3 @@
 export interface RequestCameraPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  checkAndRequestPermissions(): Promise<void>;
 }
